@@ -1,0 +1,22 @@
+{
+  "name": "tdd-sample",
+  "version": "1.0.0",
+  "description": "Simple TDD demo",
+  "main": "src/main.js",
+  "directories": {
+    "test": "moch test/test.js"
+  },
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "keywords": [
+    "TDD",
+    "javascript"
+  ],
+  "author": "samuel christopehr",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
+  }
+}
